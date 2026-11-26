@@ -1,10 +1,13 @@
 [
   "accepted",
   "adapter",
+  "cite",
+  "deliver",
   "inspect",
   "query",
   "reply",
   "restart",
   "tool",
+  "transform",
   "withdraw"
 ]

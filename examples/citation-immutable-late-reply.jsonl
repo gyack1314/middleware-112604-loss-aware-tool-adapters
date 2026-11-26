@@ -1,0 +1,9 @@
+{"at":0,"kind":"adapter","record":{"edge":"safe-proof","input":"full","output":"proof","keeps":["absent","unknown"],"cost":1,"active":true,"lawful_basis":"internal-review-license"}}
+{"at":0,"kind":"tool","record":{"tool":"k","source":"token","result":"full","available":true,"scopes":["review"]}}
+{"at":1,"kind":"query","record":{"id":"cite-drill","customer":"acme","source":"token","target":"proof","purpose":"formal","need":["absent","unknown"],"budget":3,"data_scope":"review"}}
+{"at":2,"kind":"accepted","record":{"id":"cite-drill","tool":"k","attempt":"r1"}}
+{"at":3,"kind":"reply","record":{"attempt":"r1","state":"done","body":{"status":"unknown","ticket":"T-1"}}}
+{"at":4,"kind":"cite","record":{"citation_id":"cit-1","application_id":"cite-drill","representation":"original","ref":"wiki:T-1","downstream":"proofreading"}}
+{"at":5,"kind":"reply","record":{"attempt":"r1","state":"done","body":{"status":"absent","ticket":"T-1","corrected":true}}}
+{"at":6,"kind":"inspect","record":{"id":"cite-drill"}}
+{"at":7,"kind":"inspect","record":{"citation":"cit-1"}}

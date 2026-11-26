@@ -1,0 +1,10 @@
+{"at":0,"kind":"adapter","record":{"edge":"review-format","input":"full","output":"proof","keeps":["absent","unknown"],"cost":2,"active":true}}
+{"at":0,"kind":"tool","record":{"tool":"k","source":"token","result":"full","available":true}}
+{"at":1,"kind":"query","record":{"id":"legal-drill","customer":"globex","source":"token","target":"proof","purpose":"formal","need":["absent","unknown"],"budget":4,"auto_deliver":false}}
+{"at":2,"kind":"accepted","record":{"id":"legal-drill","tool":"k","attempt":"r2"}}
+{"at":3,"kind":"reply","record":{"attempt":"r2","state":"done","body":{"status":"absent"}}}
+{"at":4,"kind":"withdraw","record":{"edge":"review-format","reason":"license-expired"}}
+{"at":5,"kind":"deliver","record":{"id":"legal-drill"}}
+{"at":6,"kind":"cite","record":{"citation_id":"cit-original","application_id":"legal-drill","representation":"original","ref":"case-9-raw"}}
+{"at":7,"kind":"inspect","record":{"id":"legal-drill"}}
+{"at":8,"kind":"inspect","record":{"citation":"cit-original"}}
