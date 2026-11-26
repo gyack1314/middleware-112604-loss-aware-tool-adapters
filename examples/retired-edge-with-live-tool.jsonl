@@ -1,0 +1,10 @@
+{"at":0,"kind":"adapter","record":{"edge":"one","input":"full","output":"mid","keeps":["unknown"],"cost":2,"active":true}}
+{"at":0,"kind":"adapter","record":{"edge":"two","input":"mid","output":"client","keeps":["unknown"],"cost":2,"active":true}}
+{"at":0,"kind":"tool","record":{"tool":"source","source":"token","result":"full","available":true}}
+{"at":1,"kind":"query","record":{"id":"q","source":"token","target":"client","need":["unknown"],"budget":4}}
+{"at":2,"kind":"accepted","record":{"id":"q","tool":"source","attempt":"a"}}
+{"at":3,"kind":"withdraw","record":{"edge":"two"}}
+{"at":4,"kind":"reply","record":{"attempt":"a","state":"unknown"}}
+{"at":5,"kind":"restart","record":{}}
+{"at":6,"kind":"reply","record":{"attempt":"a","state":"done","body":{"status":"unknown"}}}
+{"at":7,"kind":"inspect","record":{"id":"q"}}

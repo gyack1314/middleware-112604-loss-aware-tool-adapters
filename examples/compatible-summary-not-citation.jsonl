@@ -1,0 +1,7 @@
+{"at":0,"kind":"adapter","record":{"edge":"short","input":"full","output":"text","keeps":["absent"],"cost":2,"active":true}}
+{"at":0,"kind":"tool","record":{"tool":"k","source":"token","result":"full","available":true}}
+{"at":1,"kind":"query","record":{"id":"overview","source":"token","target":"text","need":["absent"],"budget":4}}
+{"at":2,"kind":"query","record":{"id":"cite","source":"token","target":"text","need":["absent","unknown"],"budget":4}}
+{"at":3,"kind":"accepted","record":{"id":"overview","tool":"k","attempt":"r"}}
+{"at":4,"kind":"reply","record":{"attempt":"r","state":"done","body":{"status":"absent"}}}
+{"at":5,"kind":"inspect","record":{"id":"cite"}}
