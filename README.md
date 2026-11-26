@@ -6,7 +6,7 @@ unknown 与 absent 是独立区分。转换成本使用整数，申请可设置 
 
 每个 JSONL 文件是一段独立输入记录。每行包括整数秒点 at、消息名称 kind 与对象 record。at 代表中间件收到消息的时刻，同一秒内按行序提交。业务时间和对应回执引用写在 record 中。
 
-- **adapter**　edge、input/output、keeps、cost 与 active。
+- **adapter**　edge、input/output、keeps、cost 与 active。 示例中的成本只用于适配路径，旧执行的在途成本仍需真实回执。
 - **tool**　tool、source、result、available。
 - **query**　id 的 source/target，need 列不可丢区分，budget 是转换成本上限。
 - **accepted**　工具以 attempt 确认接受 id。
